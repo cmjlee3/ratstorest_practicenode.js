@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body id="page5">
+  <div class = "containerRestaurants">
+    <div class ="restaurants">
+     <h1>Restaurant Results</h1>
+    </div>
+  <% results.forEach(function(x){ %>
+  <div class="secondData"> Results:
+  <p>Restaurant Name: <%= x.dba %> </p>
+  <p>Street: <%= x.street %> </p>
+  </div>
+  <% }) %>
+</div>
+
+  </div>
+</body>
+</html>

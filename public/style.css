@@ -1,0 +1,231 @@
+#page1 {
+  background-image: url("../image/chinese.jpg");
+ /* background-size: cover;*/
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.opaqueBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:rgba(0,0,0,0.7);
+  height: 400px;
+  width: 920px;
+  margin-top: 12%;
+  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.9);
+  border-radius: 3px;
+}
+
+.box {
+ color: white;
+ position: absolute;
+ font-size: 40px;
+ font-family: times;
+ text-align: center;
+}
+h2 {
+  color: white;
+  font-size: 80px;
+  font-family: 'Barrio', cursive;
+  margin-bottom: 55px;
+}
+h2:hover {
+  color: hotpink;
+}
+a {
+  margin-top: -20px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+a:hover {
+  color: hotpink;
+}
+
+/**/
+
+#page2 {
+  background-image: url("../image/rat.jpg");
+  background-size: cover;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page2 .ratBoxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:rgba(0,0,0,0.7);
+  height: 400px;
+  width: 550px;
+  margin-top: 15%;
+  margin-bottom: 50px;
+  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.9);
+  border-radius: 3px;
+  position: relative;
+  animation: move 5s infinite;
+}
+
+ @keyframes move {
+    0%   {top: 0px;}
+    25%  {top: -80px;}
+/*    75%  {top: 0px}*/
+    100% {top: 50px;}
+}
+
+#page2 .ratBox {
+ color: white;
+ font-size: 50px;
+
+ text-align: center;
+  }
+#page2 h2 {
+  margin-bottom: -1px;
+  font-family: 'Barrio', cursive;
+}
+#page2 p {
+  font-size: 18px;
+  width: 350px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#page2 input {
+  margin-bottom: 80px;
+}
+
+/*//*/
+
+#page3 {
+  background-image: url("../image/rest.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page3 .restaurantBoxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:rgba(0,0,0,0.7);
+  height: 400px;
+  width: 600px;
+  margin-top: 15%;
+  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.9);
+  border-radius: 3px;
+  position: relative;
+  animation: move 5s infinite;
+}
+
+ @keyframes move {
+    0%   {top: 0px;}
+    25%  {top: -80px;}
+/*    75%  {top: 0px}*/
+    100% {top: 50px;}
+}
+
+#page3 .restaurantBox {
+ color: white;
+ font-size: 50px;
+ font-family: 'Josefin Sans', sans-serif;
+ text-align: center;
+  }
+#page3 h2 {
+  margin-bottom: -3px;
+  margin-top: -8px;
+}
+#page3 p {
+  font-size: 18px;
+  width: 350px;
+
+  margin-left: 60px;
+  /*margin-bottom: -10px;*/
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/*//*/
+#page4 {
+  color: white;
+  width: 400px;
+}
+#page4 .containerRats {
+  background-color: black;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:  341.5px;
+  height: 600px;
+  overflow-y: scroll; margin-bottom: 12px
+  border: 1px solid red;
+  /*margin-bottom: 50px;*/
+}
+#page4 .rats{
+  background-color: black;
+  width: 341.5px;
+  padding-left: 50px;
+  padding-top: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+ /* width: 400px;*/
+}
+#page4 .firstData{
+  background:rgba(0,0,0,0.4);
+  border: 1px solid #ccc;
+  width:  200px;
+  height: 80px;
+  padding: 10px;
+  margin: 20px;
+  overflow-y: scroll; margin-bottom: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+#page4 p {
+  /*padding: 2px;*/
+}
+/*//*/
+
+#page5 {
+  color: white;
+  width: 400px;
+}
+#page5 .containerRestaurants {
+  background-color: black;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:  341.5px;
+  height: 600px;
+  overflow-y: scroll; margin-bottom: 12px
+  border: 1px solid red;
+  padding-right: 35px;
+}
+#page5 .restaurants{
+  background-color: black;
+  width: 341.5px;
+  padding-left: 50px;
+  padding-top: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+ /* width: 400px;*/
+}
+#page5 .secondData{
+  background:rgba(0,0,0,0.4);
+  border: 1px solid #ccc;
+  width:  200px;
+  height: 80px;
+  padding: 10px;
+  margin: 20px;
+  overflow-y: scroll; margin-bottom: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+
+}
+
+

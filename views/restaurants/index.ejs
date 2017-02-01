@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body id="page3">
+  <div class = "restaurantBoxContainer">
+    <div class = "restaurantBox">
+      <h2>Restaurants</h2>
+      <p>*Type a restaurant name and/or a street name and it will take you to restaurants/show.ejs with results pulled from our restaurants.json database.</p>
+      <form action = "/restaurants/show" method="GET">
+      <input type = "text" name = "dba" placeholder="Restaurant Name">
+      <input type = "text" name = "street" placeholder="Street">
+      <input type = "submit" value = "search">
+      </form>
+    </div>
+  </div>
+</body>
+</html>

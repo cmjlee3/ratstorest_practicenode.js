@@ -1,0 +1,24 @@
+{
+  "name": "hw-w05-d05-assessment",
+  "version": "1.0.0",
+  "description": "Rats",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:cecillee/hw-w05-d05-assessment.git"
+  },
+  "author": "Cecil Lee",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.11",
+    "morgan": "^1.7.0",
+    "node-fetch": "^1.6.3",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body id="page4">
+ <div class = "containerRats">
+    <div class ="rats">
+      <h1>Rat Results:</h1>
+    </div>
+    <% results.forEach(function(x){ %>
+    <div class="firstData"> Results:
+    <p>Zipcode: <%= x.incident_zip %> </p>
+    <p>Street: <%= x.street_name %> </p><br>
+    </div>
+  <% }) %>
+  </div>
+  </body>
+</html>

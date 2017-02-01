@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body id="page2">
+  <div class = "ratBoxContainer">
+    <div class = "ratBox">
+      <!-- At the top of this section, there should be a brief header of how the form works and what it will return -->
+      <h2>Rats</h2>
+      <p>*Type a zipcode and/or a street name and it will take you to rats/show.ejs with results pulled from our rats.json database :)</p>
+      <form action = "/rats/show" method="GET">
+      <input type = "text" name = "incident_zip" placeholder="zipcode">
+      <input type = "text" name = "street_name" placeholder="street">
+      <input type = "submit" value = "search">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
